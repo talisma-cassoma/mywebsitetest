@@ -1,0 +1,143 @@
+@charset "UTF-8";
+body#borracha{
+	display: block;
+	background-color:#333 ;
+	background-size: cover;	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+			div#borrachainterface{
+				background-image: url("https://c0.wallpaperflare.com/preview/381/683/817/eraser-abrasion-stationery-office.jpg");
+				background-size: cover;
+				width: 80%; /* para adaptar o tamanho em qualquer tipo de tela*/
+        height: 100%;
+				position: relative; 
+				display: block;
+				border-radius: 25px;
+				box-shadow: 1px 1px 30px black;
+				margin: 10px 600px 20px 10px;
+				padding: 100px 0; 
+				border: 20px none #333; 
+			}
+				div#borrachainterface:hover{
+         background-image: none;
+				 background-color: #DAA520;
+					/*background-image: url("https://cdn.dribbble.com/users/3979529/screenshots/7081945/eraser.gif");*/
+					/*background-image: url("https://miro.medium.com/max/1600/1*Zns4of7kzkNclLOxSGtwRg.gif");*/
+					transition: 1.9s;
+				}
+			div#borrachatexto{
+				left: 10%;
+				width: 80%; /* para adaptar o tamanho em qualquer tipo de tela*/
+        height: 100%;
+				position:relative ; 
+				display: block;
+				margin: 10px 600px 20px 10px;
+				padding: 100px 0; 
+				border: 20px none #333; 
+			}
+				p#borrachatexto{
+					position: relative; 
+					text-align: justify;
+					font-family: 'Courier New', Courier, monospace;
+					color: black;
+				}
+			/*----------lapis------- */
+		body#lapis{	
+			background-image: url("https://c1.peakpx.com/wallpaper/206/26/427/pen-notebook-coffee-mug-coffee-wallpaper-preview.jpg") ;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			width: 100%;
+			height: 100%;
+			}
+				div#lapisdiv{
+				background-image: url("https://i.pinimg.com/originals/0c/1d/e0/0c1de0be891752cadedb3038ff0d109a.jpg");
+				width: 40%;
+				background-size: cover;
+				position: absolute;
+				display: block;
+				border-radius: 25px;
+				box-shadow: 1px 1px 30px black;
+				margin: 10px 900px 20px 10px;
+				padding: 200px 0;  
+				border: 20px none #333; 
+				box-sizing: border-box;
+				}
+				div#lapistexto{
+				background-size: cover;
+				position: relative;
+				display: block;
+				left: 30px;
+				width: 80%;
+				}
+				div#lapisdiv:hover{
+					background-image: url("https://i.pinimg.com/originals/a8/12/bb/a812bb254d4796b21072827b18c5a9cf.gif");
+					transition: 1.9s;
+				}
+				h1#lapistema{font-family: Arial;
+		   	 font-size: 50pt;
+					color:#333;
+					text-shadow: 2px 2px 2px black;
+				}
+				a#lapishome{
+					color:black; 
+				}
+			/*--------------caneta----*/
+body#caneta{	
+			background-image: url("https://www.setaswall.com/wp-content/uploads/2018/09/Huawei-Mate-20-Stock-Wallpaper-009-2160x2244.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			width: 100%;
+			height: 100%;
+			}
+				div#canetadiv{
+					width: 40%;
+				background-size: cover;
+				position: absolute;
+				display: block;
+				border-radius: 25px;
+				box-shadow: 1px 1px 30px black;
+				margin: 10px 900px 20px 10px;
+				padding: 200px 0;  
+				border: 20px none #333; 
+				box-sizing: border-box;
+				}
+				div#canetatexto{
+				background-size: cover;
+				position: relative;
+				display: block;
+				left: 30px;
+				width: 80%;
+				}
+				div#canetadiv:hover{
+					background-color: #DAA520;
+					transition: 2s;
+				}
+				/*-----------config generales---------*/
+				h1{font-family: Arial;
+		   	 font-size: 50pt;
+					color: #DAA520;
+					text-shadow: 2px 2px 2px black;
+				}
+				h3 {
+					color: rgb(0,0,0);
+				}
+				p{position: relative; 
+					text-align: justify;
+					font-family: 'Courier New', Courier, monospace;
+					color: whitesmoke;
+				}
+				a{
+					color: white; 
+					text-decoration: none;
+					text-transform: uppercase;
+					font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				}
+img{
+	max-height: 100%;/*pra justicar a imagem no block*/
+	max-width: 100%;
+	display: block;
+}
+/*------------------------------*/
